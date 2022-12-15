@@ -1,0 +1,427 @@
+
+/* MOBILE */
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .fundomaisclaro{
+    
+    top: 0;
+    
+    background-color: #fbfaf7;
+  }
+
+
+  .copoemimage{
+
+    width: 70%;
+    overflow: hidden;
+ 
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+    padding-bottom: 5em;
+   
+}
+
+
+.gif{
+
+    width: 90%;
+    overflow: hidden;
+  display: block;
+    margin-top: 0;
+    margin: auto;
+   
+   
+  }
+
+.paperimg{
+
+  width: 60%;
+  overflow: hidden;
+display: block;
+  margin-top: 0;
+  margin: auto;
+ 
+ 
+}
+
+.characters{
+
+  width: 100%;
+  overflow: hidden;
+
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.coresimg{
+
+    width: 30%;
+    overflow: hidden;
+  
+    margin-left: auto;
+    margin-right: auto; 
+  
+    display: block;  
+   
+  }
+
+.buttonsimg{
+
+  width: 50%;
+  overflow: hidden;
+
+  margin-left: auto;
+  margin-right: auto; 
+
+  display: block;  
+ 
+}
+
+
+.coversimg{
+
+    width: 80%;
+    overflow: hidden;
+  
+    margin-left: auto;
+    margin-right: auto; 
+  
+    display: block;  
+   
+  }
+
+.uxuititle{
+
+ 
+    margin-top: 0;
+    text-align: left;
+    font-size: 1em;
+    font-family: Nunito;
+    color: rgb(44,44,44);
+
+}
+
+.subtitle{
+
+  margin-top: 10%;
+  text-align: center;
+  font-size: 1em;
+  font-family: SunrollB;
+  color: rgb(44,44,44);
+
+}
+
+.descricaosteps{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    font-family: Nunito;
+    color: rgb(44,44,44);
+
+
+  
+}
+
+p{
+  height: fit-content;
+}
+
+  .parentsoundshape{
+
+
+    display: grid; 
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.2fr 0.1fr 0.2fr 0.1fr 0.2fr;
+     
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "titulo1"
+    "content1"
+    "titulo2"
+    "content2"
+    "titulo3"
+    "content3"
+  
+    ; 
+
+}
+
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5{
+
+    margin-top: 20%;
+  } 
+  
+  .content1, .content2, .content3, .content4, .content5{
+    margin-top: 5%;
+  
+  }
+
+
+
+.centroyokailia{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.titlecenter{
+
+    margin: auto;
+    margin-top: 2em;
+    width:100%;
+    text-align: center;
+    font-family: SunrollB;
+    font-size: 3.3em; 
+    color: rgb(44,44,44); 
+}
+
+.nextproject{
+
+    font-family: SunrollB;
+    color: rgb(44,44,44);
+    font-size: 1em;
+    margin-top: 15%;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid rgb(44,44,44);
+    border-radius: 30px;
+    padding: 2% 3%;
+}
+
+.nextproject:hover{
+  color: #ede9e1;
+  background-color: rgb(44,44,44);
+  
+}
+
+
+.appsize{
+    width: 100%;
+    
+    }
+    
+    .appcenter{
+      width: 20%;
+      overflow: hidden;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto; 
+     
+    }
+
+    
+    .tryit{
+
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 0;
+        text-align: center;
+      
+        font-size: 1em;
+        font-family: Nunito;
+        color: rgb(44,44,44);
+      
+      }
+
+
+      .indent {
+        text-indent: 30px;
+      }
+      
+
+    @media screen and (max-width: 480px) {
+
+    
+
+        .centroyokailia{
+
+            margin-left: 15%;
+            margin-right: 15%;
+            
+        }
+    }
+    
+
+/* TABLETS */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+.centroyokailia{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+}
+
+/* SMALL SCREENS */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+
+    .centroyokailia{
+
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+}
+
+
+
+/* LARGE SCREENS */
+@media screen and (min-width: 1201px){
+
+
+    .centroyokailia{
+
+        margin-left: 33%;
+        margin-right: 33%;
+        
+    }
+ 
+}
+
+.parentcontext {
+  
+  margin-top: 5em;
+  align-content: center;
+  padding-bottom: 5em;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr ; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "exp amb"
+    "exp tag"; 
+}
+.explicacao { grid-area: exp; }
+.ambito { grid-area: amb; }
+.tag { grid-area: tag; }
+
+.explicacao{
+  
+  margin-top: 7em;
+  text-align: left;
+margin-left: 25%;
+margin-right: 15%;
+  font-size: 1em;
+  font-family: Nunito;
+  color: rgb(44,44,44);
+
+
+
+}
+
+.ambito{
+  
+  margin-top: 7em;
+  text-align: left;
+  margin-right: 25%;
+  margin-left: 15%;
+  font-size: 1em;
+  font-family: Nunito;
+  color: rgb(44,44,44);
+
+}
+
+
+.tag{
+
+  margin-right: 25%;
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  align-content: flex-start;
+  margin-top: 2em;
+}
+
+.tag > i{
+
+  
+
+  font-size: 1em;
+  font-family: Nunito;
+  color: rgb(44,44,44);
+  border: 1px solid rgb(44,44,44);
+  border-radius: 30px;
+  padding: 0 1%;
+ text-align: center;
+
+
+ 
+  text-align: center;
+
+}
+
+@media screen and (max-width: 905px){
+
+
+  .parentcontext {
+  
+    grid-template-areas: 
+      "exp exp"
+      "amb amb"
+      "tag tag"; 
+  }
+
+
+.explicacao{
+  
+margin-left: 20%;
+margin-right: 20%;
+
+
+
+
+}
+
+.ambito{
+  
+
+  margin-right: 20%;
+  margin-left: 20%;
+
+
+}
+
+
+.tag{
+ 
+  margin-right: 20%;
+  margin-left: 20%;
+
+ 
+}
+
+}
+ 
+.indent {
+  text-indent: 30px;
+}
+
+#animContainer {
+  width: 10%;
+  height: 10%;
+}

@@ -1,0 +1,192 @@
+
+/* MOBILE */
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+  .parent{
+    display: grid;
+    margin-top: 8em;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    text-align: center;
+    overflow: hidden;
+  }
+
+.centroyokailia{
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.titlecenter{
+
+    margin: auto;
+    margin-top: 2em;
+    width:100%;
+    text-align: center;
+    font-family: SunrollB;
+    font-size: 3.3em;  
+}
+
+.nextproject{
+
+    font-family: SunrollB;
+    color: rgb(44,44,44);
+    font-size: 1em;
+    margin-top: 15%;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid rgb(44,44,44);
+    border-radius: 30px;
+    padding: 2% 3%;
+}
+
+.nextproject:hover{
+  color: #ede9e1;
+  background-color: rgb(44,44,44);
+  
+}
+
+
+.descricaoyokailia{
+
+    margin: auto;
+    margin-top: 4em;
+    text-align: left;
+    display: inline-block;
+    font-size: 1em;
+    font-family: Nunito;
+    color: rgb(44,44,44);
+
+
+  
+}
+
+.descricaoythanks{
+
+    margin: auto;
+    margin-top: 4em;
+    text-align: left;
+    position: absolute;
+    font-size: 1em;
+    font-family: Kenoky;
+    color: rgb(44,44,44);
+
+
+  
+}
+
+
+    .tamanhodesenho{
+
+        width: 100%;
+        height: auto;
+        border: 0.5px solid rgb(44,44,44);
+        border-radius: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .parent {
+       
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+         
+        }
+
+        .centroyokailia{
+
+            margin-left: 15%;
+            margin-right: 15%;
+            
+        }
+    }
+    
+
+/* TABLETS */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+.parent {
+  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  
+}
+
+.centroyokailia{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+}
+
+/* SMALL SCREENS */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.parent {
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  
+
+ 
+    }
+
+    .centroyokailia{
+
+        margin-left: 25%;
+        margin-right: 25%;
+        
+    }
+}
+
+/* DESKTOPS */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+.parent {
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  
+
+  
+
+    
+    }
+
+
+}
+
+/* LARGE SCREENS */
+@media screen and (min-width: 1201px){
+.parent {
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    padding:  0 15%;
+    padding-bottom: 5%;
+
+
+    }
+
+    .centroyokailia{
+
+        margin-left: 33%;
+        margin-right: 33%;
+        
+    }
+ 
+}
+

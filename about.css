@@ -1,0 +1,216 @@
+
+
+
+.tamanhoimagemabout{
+
+      width: 20em;
+    
+}
+
+.imagemabout{
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 4em;
+}
+
+
+.descricaoabout{
+
+    margin-right: 40%;
+    text-align: left;
+ 
+}
+.textoabout{
+
+    font-family: Nunito;
+    color:#ede9e1;
+    font-size: 1.1em;
+ 
+    display: block;
+    text-align: left;
+}
+
+.textoconnect{
+
+    font-family: SunrollB;
+    color: #ede9e1;
+    font-size: 3.3em;
+    margin: 0;
+
+    text-align: center;
+    margin-top: 3em;
+  
+}
+
+.emailabout{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 8em;
+
+}
+
+.linkedinabout{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 5em;
+
+}
+
+.socials{
+
+    font-family: Nunito;
+    color: #ede9e1;
+    font-size: 1.6em;
+    border: 2px solid #ede9e1;
+    border-radius: 30px;
+    padding: 5px 30px;
+
+  
+}
+
+.socials:hover{
+
+    color: rgb(44,44,44);
+    background-color: #ede9e1;
+  
+}
+
+.resume{
+
+    font-family: SunrollB;
+    color: #ede9e1;
+    font-size: 1em;
+    text-align: left;
+    overflow: hidden;
+    display: inline-block;
+    border: 2px solid #ede9e1;
+    border-radius: 30px;
+    padding: 1% 2%;
+  
+  
+}
+
+
+.resume:hover{
+    color: rgb(44,44,44);
+    background-color: #ede9e1;
+    
+}
+
+.parentabout {
+    background-color:  rgb(44,44,44);
+    margin-top: 5em;
+    padding-bottom: 5em;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 0.2fr 0.1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "titulo titulo"
+      "imagem texto"
+      "con con"
+      "social1 social2"; 
+  }
+  .tituloabout { grid-area: titulo; }
+  .imagemabout { grid-area: imagem; }
+  .textoabout { grid-area: texto; }
+  .connectabout { grid-area: con; }
+  .emailabout { grid-area: social1; }
+  .linkedinabout { grid-area: social2; }
+
+
+    
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+
+    .descricaoabout{
+
+        margin-right: 30%;
+        
+     
+    }
+
+}
+  
+@media screen and (max-width: 800px) {
+    .parentabout {
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 0.5fr 1fr 0.2fr 0.1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "titulo titulo"
+      "imagem imagem"
+      "texto texto"
+      "con con"
+      "social1 social2"; 
+  }
+
+
+
+
+
+  .tituloabout{
+
+  
+    font-size: 3.3em;
+    margin: 0;
+    width:100%;
+    text-align: center;
+    margin-top: 1em;
+
+    
+  
+}
+
+.tamanhoimagemabout{
+
+      width: 20em;
+    
+}
+
+.imagemabout{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+}
+
+
+.textoabout{
+
+    margin-top: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+  
+ 
+}
+
+.descricaoabout{
+
+    margin: auto;
+    text-align: left;
+ 
+}
+
+
+.resume{
+
+   
+    text-align: left;
+    overflow: hidden;
+    margin-top: 10%;
+  
+  
+}
+    
+}

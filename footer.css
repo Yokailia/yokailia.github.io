@@ -1,0 +1,30 @@
+.alinharfooter{
+
+}
+
+.textofooter{
+    font-family: Nunito;
+    color: #f4f4f0;
+    font-size: 0.9em;
+    margin: 0;
+    margin: 0;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5em;
+    overflow: hidden;
+
+    
+ 
+
+}
+
+footer{
+
+    background-color:  rgb(44,44,44);
+    height: 15em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
