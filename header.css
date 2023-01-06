@@ -29,11 +29,12 @@
   }
 
   
-  .parentheader > .itemheader:nth-child(2){
+  .parentheader > .itemheader:nth-child(1){
 
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    margin-left: 20%;
   
   }
   .parentheader > .itemheader:nth-child(3){
@@ -41,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-right: 10%;
+    margin-right: 20%;
 
     
 
@@ -53,6 +54,11 @@
 
   width: 100%;
 
+}
+
+
+.tamanhostar{
+  width: 3em;
 }
 
   .logostar{
@@ -67,7 +73,7 @@
   .logostar a{
 
     margin: 0 auto;
-    height: 60px;
+    height: 48px;
 
   }
 
@@ -124,6 +130,9 @@
 
 .closeIcon {
   display: none;
+  font-size: 3em !important;
+  font-weight: bold;
+  
 }
 
 .fonteicon {
@@ -131,7 +140,8 @@
   color: rgb(44,44,44);
   text-decoration: none;
   font-size: 4em;
-  text-align: center;
+  text-align: center !important;
+  justify-content: center !important;
 }
 
 .menu {
