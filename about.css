@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-right: 8em;
+    margin-right: 3em;
 
 }
 
@@ -56,7 +56,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-left: 5em;
+    margin-left: 3em;
 
 }
 
@@ -64,10 +64,13 @@
 
     font-family: Nunito;
     color: #ede9e1;
-    font-size: 1.6em;
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: center;
     border: 2px solid #ede9e1;
-    border-radius: 30px;
-    padding: 5px 30px;
+    min-width: 97px;
+    padding: 8px 16px;
+    border-radius: 980px;
 
   
 }
@@ -79,17 +82,36 @@
   
 }
 
+.socialspace{
+
+    margin-top: 5%;
+}
+
+.resumespace{
+
+    margin-top: 7%;
+}
+
+
 .resume{
 
-    font-family: SunrollB;
+    font-family: Nunito;
     color: #ede9e1;
-    font-size: 1em;
+    font-size: 16px;
+    line-height: 1.5rem;
     text-align: left;
     overflow: hidden;
     display: inline-block;
     border: 2px solid #ede9e1;
-    border-radius: 30px;
-    padding: 1% 2%;
+    padding: 8px 32px;
+    border-radius: 980px;
+  
+  
+}
+
+.resume > a{
+
+    margin-top: 20%;
   
   
 }
