@@ -1,27 +1,19 @@
 
-  @font-face {
-    font-family: Sunroll;
-    src: url(assets/fontes/Sunroll.ttf);
-  }
 
-  @font-face {
-    font-family: SunrollB;
-    src: url(assets/fontes/Sunroll\ Bold.ttf);
-  }
 
-  @font-face {
-    font-family: Nunito;
-    src: url(assets/fontes/Nunito-VariableFont_wght.ttf);
-  }
 
 body, html{
-    background-color:#ede9e1;
+    background-color:white;
     margin: 0;
     padding: 0;
     width: 100%;
     scroll-behavior: smooth;
     overflow-x: hidden; 
     font-size: 16px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 1.18;
+    -webkit-font-smoothing: antialiased;
  
 }
 
@@ -73,6 +65,33 @@ text-decoration: none;
     }
 
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99;
+  cursor: pointer;
+  padding: 14px;
+  font-size: .75rem;
+  font-family: Inter,helvetica,arial;
+   font-weight: 600;
+   line-height: 1.25rem;
+   letter-spacing: .01875rem;
+   color: rgb(0,0,255);
+   text-align: center;
+   text-transform: uppercase;
+
+
+}
+
+#myBtn:hover{
+
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
 /*
 .gradient{
 
@@ -95,8 +114,8 @@ text-decoration: none;
       }
       
       ::selection {
-        color: #ede9e1;
-        background:  #7197FF;
+        color: white;
+        background: rgb(0,0,255);
       }
       
           /*

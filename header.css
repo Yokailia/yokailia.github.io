@@ -67,7 +67,22 @@
     
       display: flex;
 
+      
+      
+
   
+  }
+
+  .logotexto{
+
+    font-size: calc(1.7857142857vw + 10.2857142857px);
+    font-family: GilroyB, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(44,44,44);
+    font-weight: 700;
+
+    line-height: 1.18;
+
   }
 
   .logostar a{
@@ -82,11 +97,16 @@
   
   
  
-    animation: star 6s cubic-bezier(.8, .1, .2, 1) infinite;
+   /* animation: star 6s cubic-bezier(.8, .1, .2, 1) infinite;
  
-    transform-origin: center;
+    transform-origin: center; */
   }
   
+
+  .mini-descricao{
+margin-left: 6%;
+width: 20%;
+  }
   
   @keyframes star {
     50% { transform: rotate(180deg); }

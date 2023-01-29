@@ -3,61 +3,48 @@
 <html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
   <head >
     <title>Marília Martins - UX/UI </title>
+    <link rel="icon" href="assets/images/logoblue-17.png">
     <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
     <meta data-n-head="ssr" http-equiv="X-UA-Compatible" content="IE=edge"><meta data-n-head="ssr" data-hid="charset" charset="utf-8">
     <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">  
-    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="header3.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="uxui.css">
-    <link rel="stylesheet" type="text/css" href="footerwhite.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
     <link rel="stylesheet" type="text/css" href="textsize.css">
 
-    <link rel="js" type="js" href="animations.js">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
   </head>
   <body>
 
-
-
-    <div class="parentheader">
-       
-        <div class="itemheader">
-            <div class="logostar header1">
-               <a href="index.html"><img class="tamanhostar" src="assets/images/Asset 16.png" /></a>
-             </div>  
-           </div>
-         
-           <div class="itemheader"></div>
-      
-        <div  class="itemheader">
-      
-          <ul class="menu">
-            <li><a class="menuItem" href="index.html#work">Work</a></li>
-            <li><a class="menuItem" href="index.html#about">About</a></li>
-            <li><a class="menuItem" href="index.html#contact">contact</a></li>
-      
-          </ul>
-          <button class="hamburger">
-            <!-- material icons https://material.io/resources/icons/ -->
-            <p class="fonteicon menuIcon">=</p>
-            <p class="fonteicon closeIcon">×</p>
-          </button>
-        </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active logo">Marília Martins</a>
+      <div class="right">
+        <a class="menui" href="index.html#work">Work</a>
+        <a class="menui" href="index.html#about">About</a>
+        <a class="menui" href="index.html#contact">Contact</a>
+   
+      <a href="javascript:void(0);" class="iconhamburguer" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
       </div>
-   
-   
+      </a>
+    </div>
 
+
+    <a onclick="topFunction()" id="myBtn" title="Go to top">Top</a>
+
+      <div  class="centertitle" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
+        <h4 class="tituloprojeto">
+          UX/UI 
+        </h4>
+      </div> 
    
-    <div  class="centroyokailia" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
-      <p  class="titlecenter">
-        UX/UI
-      </p>
-      <p class="descricaotitulo">
-        A compilation of UX/UI exercises   
-      
-      </p>
-    </div> 
+      <div  class="centroyokailia" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
+    
+       <p class="textocorrido"> 
+        A compilation of UX/UI exercises. </p>
+      </div> 
     
  </div>
         <div class="parentsoundshape" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
@@ -87,27 +74,30 @@
 
     </div>
     
+    <div  class="centertitle" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
+      <a href="copoem.html"> <p class="botao" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
+          Next Project
+        </p> </a>
+      </div> 
 
-        <div  class="centroyokailia" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000">
-          <a href="copoem.html"> <p class="nextproject">
-            Next Project
-            </p> </a>
-          </div> 
-
-          <footer class="footerwhite">
-            <div class="alinharfooter">
-              <p class="textofooterwhite" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000" > 
-                Marília Martins 2022
-              </p>
-            </div>
-            </footer>
+      <footer>
+        <div class="alinharfooter">
+          <p class="textofooter" data-aos="fade-up" data-aos-anchor-placement="center" data-aos-duration="3000"> 
+            Marília Martins 2023
+          </p>
+        </div>
+        </footer>
 
 
     </body>
 </html>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="hamburguer.js" type="text/javascript"></script>
+<script src="hamburguer3.js" type="text/javascript"></script>
+<script src="scroll.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" type="text/javascript"></script>
 
 <script>
     AOS.init();

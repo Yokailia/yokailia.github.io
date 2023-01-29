@@ -10,20 +10,18 @@ a {
     
     top: 0;
     
-    background-color: #fbfaf7;
+    background-color: #f2f2ff;
   }
-
 
   .copoemimage{
 
-    width: 70%;
+    width: 50%;
     overflow: hidden;
- 
-    margin-top: 7em;
+    border-radius: 10px;
+    margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
     display: block;  
-    padding-bottom: 5em;
    
 }
 
@@ -38,15 +36,20 @@ a {
    
 }
 
-.wireframesimg{
+.imagem{
 
   width: 100%;
   overflow: hidden;
-
-  margin-top: 0;
   margin: auto;
+
  
  
+}
+
+
+.imagemmargin{
+  margin-top: 4rem;
+
 }
 
 .characters{
@@ -141,11 +144,11 @@ p{
 
 
     display: grid; 
-    margin-right: 20%;
-    margin-left: 20%;
+    
+
     grid-auto-rows: 1fr; 
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.2fr 0.1fr 0.2fr 0.1fr 0.2fr 0.1fr 0.2fr 0.1fr 0.2fr;
+    grid-template-rows: 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr 0.05fr 0.1fr ;
      
     gap: 0px 0px; 
     grid-template-areas: 
@@ -159,16 +162,22 @@ p{
     "content4"
     "titulo5"
     "content5"
+    "titulo6"
+    "content6"
+    "titulo7"
+    "content7"
+    "titulo8"
+    "content8"
     ; 
 
 }
 
-.titulo1, .titulo2, .titulo3, .titulo4, .titulo5{
+.titulo1, .titulo2, .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8{
 
     margin-top: 20%;
   } 
   
-  .content1, .content2, .content3, .content4, .content5{
+  .content1, .content2, .content3, .content4, .content5, .content6, .content7, .content8 {
     margin-top: 5%;
   
   }
@@ -228,11 +237,13 @@ p{
     }
     
     .appcenter{
-      width: 20%;
-      overflow: hidden;
-      display: flex;
-      margin-left: auto;
-      margin-right: auto; 
+      padding-left: 35%;
+    padding-right: 35%;
+    overflow: hidden;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto; 
      
     }
 
@@ -311,116 +322,42 @@ p{
 
 .parentcontext {
   
-  margin-top: 5em;
+  margin-top: 5rem;
+  padding: 5% 10%;
   align-content: center;
-  padding-bottom: 5em;
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr ; 
-  gap: 0px 0px; 
+  gap: 10% 5%; 
   grid-template-areas: 
-    "exp amb"
-    "exp tag"; 
+    "duration role"
+    "team tools"; 
 }
-.explicacao { grid-area: exp; }
-.ambito { grid-area: amb; }
-.tag { grid-area: tag; }
-
-.explicacao{
-  
-  margin-top: 7em;
-  text-align: left;
-margin-left: 25%;
-margin-right: 15%;
-  font-size: 1em;
-  font-family: Nunito;
-  color: rgb(44,44,44);
+.duration { grid-area: duration; }
+.team { grid-area: team; }
+.role { grid-area: role; }
+.tools { grid-area: tools; }
 
 
 
-}
 
-.ambito{
-  
-  margin-top: 7em;
-  text-align: left;
-  margin-right: 25%;
-  margin-left: 15%;
-  font-size: 1em;
-  font-family: Nunito;
-  color: rgb(44,44,44);
-
-}
-
-
-.tag{
-
-  margin-right: 25%;
-  margin-left: 15%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  align-content: flex-start;
-  margin-top: 2em;
-}
-
-.tag > i{
-
-  
-
-  font-size: 1em;
-  font-family: Nunito;
-  color: rgb(44,44,44);
-  border: 1px solid rgb(44,44,44);
-  border-radius: 30px;
-  padding: 0 1%;
- text-align: center;
-
-
- 
-  text-align: center;
-
-}
 
 @media screen and (max-width: 905px){
 
 
   .parentcontext {
   
+
+    padding: 10% 10%;
+
     grid-template-areas: 
-      "exp exp"
-      "amb amb"
-      "tag tag"; 
+      "duration duration"
+      "team team"
+      "role role"
+      "tools tools"; 
   }
 
 
-.explicacao{
-  
-margin-left: 20%;
-margin-right: 20%;
-
-
-
-
-}
-
-.ambito{
-  
-
-  margin-right: 20%;
-  margin-left: 20%;
-
-
-}
-
-
-.tag{
- 
-  margin-right: 20%;
-  margin-left: 20%;
-
- 
-}
 
 }
  

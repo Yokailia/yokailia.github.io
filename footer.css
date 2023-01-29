@@ -3,16 +3,15 @@
 }
 
 .textofooter{
-    font-family: Nunito;
-    color: #f4f4f0;
-    font-size: 0.9em;
+
     margin: 0;
     margin: 0;
     width:100%;
     position: absolute;
     bottom: 0;
-    padding-bottom: 5em;
+    padding-bottom: 3rem;
     overflow: hidden;
+
 
     
  
@@ -20,8 +19,8 @@
 }
 
 footer{
-
-    background-color:  rgb(44,44,44);
+    color: rgb(0,0,255);
+    background-color: white;
     height: 15em;
     text-align: center;
     position: relative;

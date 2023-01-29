@@ -1,0 +1,147 @@
+.topnav {
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+
+
+  
+}
+
+.logo{
+  float: left;
+  font-size: .75rem !important;
+  font-family: InterB,helvetica,arial !important;
+  text-decoration: none;
+  color: rgb(0,0,255) !important;
+  font-weight: 900;
+
+}
+
+.right{
+    float: right !important;
+}
+
+.topnav a {
+    float: left;
+    display: inline;
+    color: rgb(0,0,255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: .75rem;
+    font-family: Inter,helvetica,arial;
+     font-weight: 600;
+     line-height: 1.25rem;
+     letter-spacing: .01875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+.topnav a:hover:not(.logo) {
+ text-decoration: underline;
+ text-underline-offset: 2px;
+
+}
+
+.topnav a.active {
+  background-color: none;
+  color: rgb(44,44,44);
+}
+
+.topnav .iconhamburguer {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(.logo) {
+    display: none;
+}
+  .topnav a.iconhamburguer {
+    float: right;
+    display: block;
+  }
+  
+
+  .topnav.responsive {
+    position: relative;
+    z-index: 99;
+    overflow: hidden;
+    height: 100vh;
+    background-color:  white;
+    list-style: none;
+    
+}
+
+
+.right > a:not(:last-child){
+
+    animation: ease;
+    animation-name: slideDown;
+    animation-duration: 1s;
+}
+
+
+@keyframes slideDown {
+    0% { 
+      opacity: 0;
+      transform: translateY(-100px)
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0)
+    }
+  }
+
+  .topnav.responsive .iconhamburguer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+
+  .topnav.responsive a:not(.logo) {
+    float: none;
+    display: block;
+    text-align: center;
+    
+    
+    
+  }
+
+  .right{
+
+    float: none !important;
+    
+    
+  }
+
+  .topnav.responsive .right a:nth-child(1) {
+    margin-top: 10rem;
+    
+
+    
+  }
+
+  .topnav.responsive a:not(.logo):not(:last-child) {
+   color: rgb(0,0,255);
+   font-size: calc(1.7857142857vw + 10.2857142857px);
+   font-weight: 900;
+   font-family: Gilroy, Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   line-height: 1.18;
+   text-transform: none;
+
+   
+    
+  }
+}
+
+
