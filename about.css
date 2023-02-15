@@ -18,14 +18,12 @@
 
 .descricaoabout{
 
-    margin-right: 50%;
+ 
     text-align: left;
  
 }
 .textoabout{
-
-
-    margin: 0;
+    margin-right:45%;
     margin-top: 0.75rem!important;
  
     display: block;
@@ -107,11 +105,8 @@
     
 @media screen and (min-width: 800px) and (max-width: 1000px) {
 
-    .descricaoabout{
-
-        margin-right: 30%;
-        
-     
+    .textoabout{
+        margin-right: 20%;
     }
 
 }
