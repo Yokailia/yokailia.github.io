@@ -4,72 +4,64 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-left: 5%;
-    margin-right: 5%;
-
-
-
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
-  
-
- 
   .container {
     
-    margin: 1rem;
-    width: 400px;
-    height: 500px;
-    padding: 0px 30px;
+    width: 650px;
+    margin: 2rem;
     transition: 0.3s;
     
   }
 
   .container > a >img {
 
-    border-radius: 0.5rem;
+   /* border-radius: 0.5rem; */
   }
 
 
 
   .titulocard{
-    margin-top: 2rem!important;
+   
+  font-size: 32px !important;
+  font-family: Mabry, Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin-bottom: .5rem !important;
+  text-transform: uppercase;
 
 
   }
-
+/*
   .textocard{
 
-    font-size: 1 rem;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: Mabry, Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(44,44,44);
     letter-spacing: -.2px;
     line-height: 1.5;
     margin: 0;
+    font-weight: 500;
     margin-top: 0.75rem!important;
   }
-
+ */
   .tagscard{
 
-    font-size: 0.6rem;
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-family: Mabry, Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(131, 131, 255);
-    letter-spacing: -.2px;
-    line-height: 2;
-    margin: 0.1rem;
-    padding: 0.1rem 0.3rem;
-    border: 1px solid rgb(131, 131, 255);
-    border-radius: 0.3rem;
-    font-style: italic;
-
+    color: rgba(40,40,40,0.5);
     text-transform: uppercase;
+
+
   }
 
   .tags{
     display: inline-block;
-    margin-top: 0.75rem!important;
+    margin-top: .5rem !important;
   }
 
 

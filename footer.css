@@ -19,11 +19,12 @@
 }
 
 footer{
-    color: rgb(0,0,255);
-    background-color: white;
+    color: rgb(40,40,40);
+    background-color: #efede8;
     height: 15em;
     text-align: center;
     position: relative;
     overflow: hidden;
+    
 
 }

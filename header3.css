@@ -11,9 +11,9 @@
 .logo{
   float: left;
   font-size: .75rem !important;
-  font-family: InterB,helvetica,arial !important;
+  font-family: Mabry,helvetica,arial !important;
   text-decoration: none;
-  color: rgb(0,0,255) !important;
+  color: rgb(40,40,40) !important;
   font-weight: 900;
 
 }
@@ -25,12 +25,12 @@
 .topnav a {
     float: left;
     display: inline;
-    color: rgb(0,0,255);
+    color: rgb(40,40,40);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: .75rem;
-    font-family: Inter,helvetica,arial;
+    font-family: Mabry,helvetica,arial;
      font-weight: 600;
      line-height: 1.25rem;
      letter-spacing: .01875rem;
@@ -46,7 +46,7 @@
 
 .topnav a.active {
   background-color: none;
-  color: rgb(44,44,44);
+  color: rgb(40,40,40);
 }
 
 .topnav .iconhamburguer {
@@ -68,7 +68,7 @@
     z-index: 99;
     overflow: hidden;
     height: 100vh;
-    background-color:  white;
+    background-color: #efede8;
     list-style: none;
     
 }
@@ -131,13 +131,13 @@
   }
 
   .topnav.responsive a:not(.logo):not(:last-child) {
-   color: rgb(0,0,255);
+   color: rgb(40,40,40);
    font-size: calc(1.7857142857vw + 10.2857142857px);
    font-weight: 900;
    font-family: Gilroy, Arial, Helvetica, sans-serif;
    text-decoration: none;
    line-height: 1.18;
-   text-transform: none;
+   text-transform: uppercase;
 
    
     

@@ -3,7 +3,7 @@
 
 
 body, html{
-    background-color:white;
+    background-color: #efede8;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -51,7 +51,36 @@ text-decoration: none;
 }
 
 
+.cursor{
+  display: none;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  pointer-events: none;
+  overflow: hidden;
+  border-radius: 100%;
+  transition-property: transform, opacity, backdrop-filter;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+  transform: translate(-50%, -50%) scale(0.1);
+  background: rgba(255,255,255, 0.5);
+  backdrop-filter: invert() grayscale();
+  -webkit-backdrop-filter:  blur(9px);
 
+}
+
+@media (min-width: 768px){
+.cursor {
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+}
+}
+
+
+/*
 .introindex{
  
     margin-top: 10%;
@@ -59,10 +88,7 @@ text-decoration: none;
     line-height: 1.4em;
     margin-left: 15%;
     margin-right: 15%;
-
- 
-    
-    }
+    } */
 
 
 #myBtn {
@@ -74,11 +100,11 @@ text-decoration: none;
   cursor: pointer;
   padding: 14px;
   font-size: .75rem;
-  font-family: Inter,helvetica,arial;
+  font-family: Mabry,helvetica,arial;
    font-weight: 600;
    line-height: 1.25rem;
    letter-spacing: .01875rem;
-   color: rgb(0,0,255);
+   color: rgb(40,40,40);
    text-align: center;
    text-transform: uppercase;
 
@@ -109,13 +135,13 @@ text-decoration: none;
  */
 
       ::-moz-selection { /* Code for Firefox */
-        color:#ede9e1;
-        background: #b9cafa;
+        color: #efede8 ;
+        background:  rgb(40,40,40);
       }
       
       ::selection {
-        color: white;
-        background: rgb(0,0,255);
+        color: #efede8;
+        background:  rgb(40,40,40);
       }
       
           /*

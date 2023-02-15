@@ -83,13 +83,8 @@
 
     margin-top: 5%;
 }
-
-
-
-
-
 .parentabout {
-
+    
     padding-bottom: 5em;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
@@ -168,12 +163,7 @@
  
 }
 
-.descricaoabout{
 
-    margin: auto;
-    text-align: left;
- 
-}
 
 
 .resume{
